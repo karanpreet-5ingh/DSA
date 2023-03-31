@@ -2,5 +2,6 @@
 using namespace std;
 
 bool duplicate(int arr[ ], int size){
-    
+     
+     
 }
