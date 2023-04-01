@@ -36,4 +36,7 @@ int main()
     int index  = binary_search(even, 4, 2);
     cout<< index<<endl;
 
+
+
+    return 0; 
 }
