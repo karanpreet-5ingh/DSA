@@ -16,7 +16,7 @@ int main()
     int arr[4] = {4, 3, 25, 1};
     int n = 4;
 
-    printarr(arr, n);
+    // printarr(arr, n);
     for (int i = 1; i < n; i++)
     {
         for (int j = 0; j < n - i; j++)
@@ -26,6 +26,7 @@ int main()
                 swap(arr[j], arr[j + 1]);
             }
         }
+        printarr(arr, n);
     }
 
     printarr(arr, n);
