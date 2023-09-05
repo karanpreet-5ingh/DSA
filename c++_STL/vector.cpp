@@ -7,7 +7,7 @@ using namespace std;
 int main(){
     vector<int> v;
 
-    vector<int> a(5,2);// 5 size ka vector bana and saare elemen ko 1 se initialize kr de... or default me 0 se initialize ho jaega 
+    vector<int> a(5,1);// 5 size ka vector bana and saare elemen ko 1 se initialize kr de... or default me 0 se initialize ho jaega 
     cout<<"print a -> "<<endl;
     for(int i:a ){
 
@@ -19,7 +19,7 @@ int main(){
 
 /// naya vector banao jisme a k  saare element copy krwa do
 
-    vector<int> last(a);// 5 size ka vector bana and saare elemen ko 1 se initialize kr de... or default me 0 se initialize ho jaega 
+    vector<int> last(a);
     cout<<"print last -> "<<endl;
     for(int i:last ){
 
