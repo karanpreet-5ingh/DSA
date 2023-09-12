@@ -57,5 +57,5 @@ int main(){
 
     merge_sorted_array(arr1,n,arr2,m,arr3);
     int k = sizeof(arr3)/sizeof(arr1[0]);
-    // print_arr(arr3,k);
+    print_arr(arr3,k);
 }
